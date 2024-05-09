@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the no.</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div class="heading-wrapper">
+        <h1>Mini Project 4</h1>
+    </div>
+    <div class="game-info">
+        <p>Try and guess a no. between 1 and 100.</p>
+        <p>You have 10 guesses</p>
+    </div>
+    <div class="form-wrapper">
+        <form>
+            <label>Enter the no.</label><br><br>
+            <input type="number" class="number"><br><br>
+            <button class="submit">SUBMIT</button>
+            <button class="start-over">New Game</button>
+        </form>
+
+        <p>Previous guesses:<span class="Previous-guesses"></span></p>
+        <p>Remaining guesses:<span class="Remaining-guesses">10</span></p>
+        <p class="message"></p>
+    </div>
+    <script src='index.js'></script>
+</body>
+</html>

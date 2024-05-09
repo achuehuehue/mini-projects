@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    background-color:black;
+}
+
+.heading-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.game-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-top: 2dvb;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: orange;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.start-over{
+    display: none;
+}

@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+.heading-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.centre-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.clock{
+    height: 100px;
+    width: 250px;
+    background-color: orange;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: white;
+}
